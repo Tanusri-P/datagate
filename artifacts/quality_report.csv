@@ -1,0 +1,7 @@
+check,passed,missing_columns,current,baseline,ratio,column,duplicates,null_count,null_rate,orders_compared,mismatched_orders,tolerance
+schema,True,[],,,,,,,,,,
+schema,True,[],,,,,,,,,,
+volume,True,,99441.0,99441.0,1.0,,,,,,,
+uniqueness,True,,,,,order_id,0.0,,,,,
+nulls,True,,,,,order_id,,0.0,0.0,,,
+reconciliation,False,,,,,,,,,98665.0,260.0,0.05

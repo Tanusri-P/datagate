@@ -1,0 +1,47 @@
+{
+    "project": "DataGate",
+    "generated_at": "2026-09-29T13:26:19+05:30",
+    "total_checks": 6,
+    "passed": 5,
+    "failed": 1,
+    "overall_status": "FAILED",
+    "results": [
+        {
+            "check": "schema",
+            "passed": true,
+            "missing_columns": []
+        },
+        {
+            "check": "schema",
+            "passed": true,
+            "missing_columns": []
+        },
+        {
+            "check": "volume",
+            "passed": true,
+            "current": 99441,
+            "baseline": 99441,
+            "ratio": 1.0
+        },
+        {
+            "check": "uniqueness",
+            "passed": true,
+            "column": "order_id",
+            "duplicates": 0
+        },
+        {
+            "check": "nulls",
+            "passed": true,
+            "column": "order_id",
+            "null_count": 0,
+            "null_rate": 0.0
+        },
+        {
+            "check": "reconciliation",
+            "passed": false,
+            "orders_compared": 98665,
+            "mismatched_orders": 260,
+            "tolerance": 0.05
+        }
+    ]
+}
